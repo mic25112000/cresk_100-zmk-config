@@ -40,7 +40,7 @@
                               &sl 1    &kp SPACE     &sk LSHIFT   &sk LCTRL
 			>;
 
-			sensor-bindings = <&mouse_scroll_encoder &inc_dec_kp C_VOL_UP C_VOL_DN>;
+			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &mouse_scroll_encoder>;
 		};
 
 		lower_layer {
