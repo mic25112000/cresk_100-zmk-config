@@ -4,10 +4,12 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: nguyendown
       url-base: https://github.com/nguyendown
+    - name: petejohanson
+      url-base: https://github.com/petejohanson
   projects:
     - name: zmk
-      remote: nguyendown
-      revision: shield-code+charlieplex+sk-fixes+mouse+sensor-binding
+      remote: petejohanson
+      revision: feat/pointers-move-scroll
       import: app/west.yml
   self:
     path: config
